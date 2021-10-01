@@ -29,8 +29,11 @@ For More related FAQs visit [here](https://hacktoberfest.digitalocean.com/faq)
 
 ## List of Good Beginner Friendly Repos to get your first PR:
 Do help the community by adding more **good quality, beginner-friendly** HackotberFest Repos here👇👇
+- https://github.com/manisha069/HacktoberFest21
 - https://github.com/iamdevvalecha/Hacktoberfest-21-Open-First-PR
 - https://github.com/twowaits/make-pull-request
 - https://github.com/fineanmol/Hacktoberfest2k21
 - https://github.com/vinitshahdeo/Hacktoberfest2021/blob/main/explore/PROJECTS.md
-
+- https://github.com/hctnm1/HacktoberFest-Python
+- https://github.com/hhhrrrttt222111/Patterns
+- https://github.com/Shubhamrawat5/open-source-contribution
