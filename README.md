@@ -41,3 +41,4 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 - https://github.com/hctnm1/HacktoberFest-Python
 - https://github.com/hhhrrrttt222111/Patterns
 - https://github.com/Shubhamrawat5/open-source-contribution
+- https://github.com/vijaygupta18/Hacktoberfest-2021
