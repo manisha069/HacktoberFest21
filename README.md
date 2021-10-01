@@ -28,10 +28,10 @@ Every Pull Request goes through a "Maturing Period" of two weeks, so do be patie
 For More related FAQs visit [here](https://hacktoberfest.digitalocean.com/faq)
 
 ## List of Good Beginner Friendly Repos to get your first PR:
----
+Do help the community by adding more **good quality, beginner-friendly** HackotberFest Repos here👇👇
 1. https://github.com/iamdevvalecha/Hacktoberfest-21-Open-First-PR
 2. https://github.com/twowaits/make-pull-request
 3 .https://github.com/fineanmol/Hacktoberfest2k21
----
+
 
 
