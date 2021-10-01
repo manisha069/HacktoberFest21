@@ -32,6 +32,5 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 - https://github.com/iamdevvalecha/Hacktoberfest-21-Open-First-PR
 - https://github.com/twowaits/make-pull-request
 - https://github.com/fineanmol/Hacktoberfest2k21
-
-
+- https://github.com/vinitshahdeo/Hacktoberfest2021/blob/main/explore/PROJECTS.md
 
