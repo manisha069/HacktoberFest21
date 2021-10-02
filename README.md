@@ -4,6 +4,7 @@
 # HacktoberFest21
 
 Hello Hackers! 
+
 HacktoberFest has begun again for year 2021, and everyone's excited to get started!
 
 
@@ -50,3 +51,4 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 ---
 ## Maintainer
 - Manisha Gupta [LinkedIn](https://www.linkedin.com/in/manisha-gupta-here/) | [Twitter](https://twitter.com/manishawho) | [Instagram](https://www.instagram.com/manisha_gupta_here/)
+### A good initiative to showcase your talent through contribution.
