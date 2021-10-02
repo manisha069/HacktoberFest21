@@ -37,7 +37,16 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 - https://github.com/iamdevvalecha/Hacktoberfest-21-Open-First-PR
 - https://github.com/twowaits/make-pull-request
 - https://github.com/fineanmol/Hacktoberfest2k21
+- https://github.com/sahanihit/Hacktoberfest2020-Newbie
 - https://github.com/vinitshahdeo/Hacktoberfest2021/blob/main/explore/PROJECTS.md
 - https://github.com/hctnm1/HacktoberFest-Python
 - https://github.com/hhhrrrttt222111/Patterns
 - https://github.com/Shubhamrawat5/open-source-contribution
+- https://github.com/vijaygupta18/Hacktoberfest-2021
+- https://github.com/viralvaghela/hacktoberfest_2021
+- https://github.com/Sangwan5688/Hacktoberfest2021
+- https://github.com/avinash201199/Hacktoberfest-Guide
+
+---
+## Maintainer
+- Manisha Gupta [LinkedIn](https://www.linkedin.com/in/manisha-gupta-here/) | [Twitter](https://twitter.com/manishawho) | [Instagram](https://www.instagram.com/manisha_gupta_here/)
