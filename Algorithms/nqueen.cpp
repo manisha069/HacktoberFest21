@@ -1,63 +1,67 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-bool danger(int **board, int row, int col, int n)
-{
-    for (int i = 0; i < row; i++)
-        if (board[i][col] && row!=i)
-            return true;
-
-    for (int i=row-1, j=col-1 ; i>=0 && j>=0 ; i--, j--)
-        if (board[i][j])
-            return true;
-
-    for (int i=row-1, j=col+1 ; i>=0 && j<n ; i--, j++)
-        if (board[i][j])
-            return true;
-    return false;
-}
-
-void nQueen(int **board, int row, int col, int n)
-{
-    if (row>=n)
+    bool issafe(int **arr,int x,int y,int n)
     {
-        for (int i = 0; i < n; i++)
+        for(int i=0;i<x;i++)
         {
-            cout<<"("<<i<<",";
-            for (int j = 0; j < n; j++)
-            {
-                if (board[i][j])
-                    cout<<j<<")"<<endl;
-            }
-            cout<<endl;
+            if (arr[i][y]==1)
+            return false;
         }
-        exit(0);
-        return;
-    }
-    for (int i=0; i<n; i++)
-        if (!danger(board,row,i,n))
+        int row=x;int col=y;
+        while(row>=0 &&col>=0)
         {
-            board[row][i] = 1;
-            nQueen(board,row+1,0,n);
-            board[row][i] = 0;
-        }
-}
+            if(arr[row][col]==1)
+            return false;
+            row--;col--;
+        }   row=x;col=y;
 
-int main()
+        while(row>=0 && col<n)
+        {
+            if(arr[row][col]==1)
+            return false;
+            row--;col++;
+        }
+        return true;
+    }
+    bool nqueen( int **arr,int x,int n)
+    {
+        if(x>=n)
+        {
+            return true;
+        }
+        for(int col=0;col<n;col++)
+        {
+            if (issafe (arr,x,col,n))
+            {
+                arr[x][col]=1;
+            if(nqueen (arr,x+1,n))
+              return true;
+              arr[x][col]=0;
+            }
+        }
+        return false;
+    }
+    int main()
 {
     int n;
     cin>>n;
-
-    int** board;
-    board = new int*[n];
-    for (int i=0; i<n; i++)
-        board[i] = new int[n];
-
-    for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
-            board[i][j] = 0;
-
-    nQueen(board,0,0,n);
-
-    return 0;
+    int **arr=new int *[n];
+    for(int i=0;i<n;i++)
+    {
+        arr[i]=new int [n];
+        for(int j=0;j<n;j++)
+        arr[i][j]=0;
+    }
+    if (nqueen(arr,0,n))
+    {
+        for(int i=0;i<n;i++)
+        {
+        for(int j=0;j<n;j++)
+        {
+        cout<<arr[i][j]<<" ";
+        }
+    cout<<endl;
+        }
+}
 }
