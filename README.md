@@ -48,4 +48,4 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 
 ---
 ## Maintainer
-- Manisha Gupta [LinkedIn](https://www.linkedin.com/in/manisha-gupta-here/) [Twitter](https://twitter.com/manishawho) [Instagram](https://www.instagram.com/manisha_gupta_here/)
+- Manisha Gupta [LinkedIn](https://www.linkedin.com/in/manisha-gupta-here/) | [Twitter](https://twitter.com/manishawho) | [Instagram](https://www.instagram.com/manisha_gupta_here/)
