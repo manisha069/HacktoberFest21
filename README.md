@@ -44,3 +44,8 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 - https://github.com/vijaygupta18/Hacktoberfest-2021
 - https://github.com/viralvaghela/hacktoberfest_2021
 - https://github.com/Sangwan5688/Hacktoberfest2021
+- https://github.com/avinash201199/Hacktoberfest-Guide
+
+---
+## Maintainer
+- Manisha Gupta [LinkedIn](https://www.linkedin.com/in/manisha-gupta-here/) [Twitter](https://twitter.com/manishawho) [Instagram](https://www.instagram.com/manisha_gupta_here/)
