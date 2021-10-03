@@ -29,9 +29,13 @@ int binarySearch(int arr[], int left, int right, int element)
 
 int main()
 {
-	int arr[] = {5,8,12,15,20};
+	int size;
+	cin>>size;
+	int arr[size];
+	for(int i=0;i<size;i++){
+		cin>>a[i];
+	}
 	int element = 12;
-	int size = sizeof(arr)/sizeof(arr[0]);
 
 	int result = binarySearch(arr,0,size-1,element);
 	if(result==-1)
