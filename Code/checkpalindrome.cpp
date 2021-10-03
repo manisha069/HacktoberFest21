@@ -5,19 +5,15 @@ using namespace std;
 bool checkPalindrome(char input[])
 {
     static int i = 0;
-    int S = strlen(input);
-    if (i >= S)
-        return 1;
-    if (input[i] != input[S - i - 1])
+    int N = strlen(input);
+    for(int i = 0; i<N/2; i++) 
     {
-
-        return 0;
+        if(input[i] != input[N-i-1]) 
+        {
+            return false;
+        }
     }
-    else
-    {
-        i++;
-        checkPalindrome(input);
-    }
+    return true;
 }
 
 int main()
