@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
+ 
+ll int n,m;
+ll int trees[10000000];
+ 
+bool check(ll int h){
+    ll int wood=0;
+    for(ll int i=0;i<n;i++){
+        if(trees[i]>h) wood+=trees[i]-h;
+    }
+    return wood>=m;
+}
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cin>>n>>m;
+    for(ll int i=0;i<n;i++){
+        cin>>trees[i];
+    }
+    
+    ll int lo=0;
+    ll int hi=1e9;
+    ll int mid;
+    while(hi-lo>1){
+        mid=lo+(hi-lo)/2;
+        if(check(mid)){
+            lo=mid;
+        }
+        else{
+            hi=mid-1;
+        }
+    }
+    if(check(hi)) cout<<hi;
+    else cout<<lo;
+    return 0;
+}
+ 
