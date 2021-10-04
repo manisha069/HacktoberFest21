@@ -8,8 +8,8 @@ void SmallestWeight(int n, float w[], float p[], float m);
 int main()
 {
 	float w[20], p[20], ratio[20], m;
-	int n; //p-profit, w-weights, x-ratio, m-capacity, n-num
-	int i, j;
+	//p-profit, w-weights, x-ratio, m-capacity, n-num
+	int i, j,n;
 	float temp;
 	
 	printf("\nEnter the number of objects: ");
