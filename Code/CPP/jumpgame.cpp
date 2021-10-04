@@ -4,23 +4,16 @@ using namespace std;
 bool canJump(vector<int> &nums)
 {
     int n = nums.size();
-
-    int pre = 0, flag = 0;
-    for (int i = 0; i < n; i++)
+    int last_index = n-1;  //last index to be reached at any time.
+    for(int i=n-1 ; i>=0 ; i--) 
     {
-        if (i > pre)
+        if(i+nums[i] >= last_index)
         {
-            flag = 1;
-            break;
+            last_index = i;
         }
-        pre = max(pre, i + nums[i]);
     }
-
-    if (flag == 1)
-    {
-        return false;
-    }
-    return true;
+    
+    return last_index <= 0;
 }
 
 int main()
