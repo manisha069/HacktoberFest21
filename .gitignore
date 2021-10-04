@@ -34,3 +34,6 @@
 #Misc
 .DS_Store
 .vscode
+
+#Java
+*.class
