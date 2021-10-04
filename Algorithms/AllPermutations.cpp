@@ -13,8 +13,8 @@ void permute(string s,int index)
 	// base case to stop the recursion process
 	if(index == s.size())  
 	{
-		cout<<s<<endl;
-		return;
+		cout<<s<<\n;
+		return 0;
 	}
 	
 	// swapping each time with each index and then backtracking.
