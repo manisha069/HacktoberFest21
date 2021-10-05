@@ -8,23 +8,24 @@
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-        map<int,int> m;
-        for (int i = 0; i < nums2.size(); i++) {
-            for (int j = i; j<nums2.size(); j++) {
-                if (nums2[j] > nums2[i]) {
-                    m[nums2[i]] = nums2[j];
-                    break;
-                }
-            }
-            if (!m[nums2[i]]){
-                m[nums2[i]] = -1;
-            }
+        vector<int>res;
+        unordered_map<int,int>mp;
+        for(int i=nums2.size()-1 ; i>=0 ; i--) 
+            mp[nums2[i]]=i;
+        
+        for(int i=0 ; i<nums1.size() ; i++)
+        {
+            int j = mp[nums1[i]]+1;
+            while(j<nums2.size() && nums2[j]<nums1[i]) 
+                j++;
+            
+            if(j==nums2.size()) 
+                res.push_back(-1);
+
+            else
+                res.push_back(nums2[j]);
         }
-        vector<int> ret;
-        for (int i = 0; i < nums1.size(); i++) {
-            ret.push_back(m[nums1[i]]);
-        }
-        return ret;
+        return res;
     }
 };
 // @lc code=end
