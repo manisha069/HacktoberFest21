@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body,.container{
+    height: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.container{
+    background: #f6f6f6; 
+}
+
+.context-menu{
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 20px 0 #ccc;
+    position: absolute;
+    display: none;
+}
+
+.context-menu ul{
+    list-style: none;
+    padding-right: 5px 0px 5px 0px;
+}
+
+.context-menu ul li:not(.separator){
+    padding: 10px 5px 10px 5px;
+    border-left: 4px solid transparent;
+    cursor: pointer;
+}
+
+.context-menu ul li:hover:not(.separator){
+    background: #eee;
+    border-left: 4px solid #666;
+}
+
+.separator{
+    height: 1px;
+    background: #dedede;
+    margin: 2px 0px 2px 0px;
+
+}
