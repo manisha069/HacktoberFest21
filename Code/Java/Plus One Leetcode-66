@@ -1,0 +1,26 @@
+class Solution {
+    public int[] plusOne(int[] digits) {
+        int power = digits.length-1;
+        while(power >= 0){
+            if(digits[power] == 9){
+            if(power == 0){
+                digits[power] = 0;
+                int[] newarray = new int[digits.length+1];
+                newarray[0] = 1;
+                for(int i = 0; i < digits.length; i++){
+                    newarray[i+1] = digits[i];
+                }
+                return newarray;
+            }else{
+                digits[power] = 0;
+            }
+            power--;
+        }else{
+            digits[power] += 1;
+            return digits;
+        }
+        }
+        
+        return digits;
+    }
+}
