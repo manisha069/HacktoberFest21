@@ -1,0 +1,24 @@
+h4{
+    text-align: center;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#result{
+    height: 200px;
+    border: 1px soid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 #bbb;
+    margin: 30px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+button{
+    font-size: 25px;
+    position: absolute;
+    top: 240px;
+    left: 48%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Text to Speech Convertor in JS</h3>
+        <textarea name="" id="myText">Hello! This is Akshat Aggarwal. I made a text to speech convertor.. Just checking that.. Thank You!</textarea>
+        <label for="">
+            <span>Voice</span>
+            <select name="" id="voiceOptions"></select>
+        </label>
+        <label for="">
+            <span>Volume</span>
+            <input type="range" name="" id="volumeSlider" min="0" max="1" value="0.5" step="0.1">
+        </label>
+        <label for="">
+            <span>Rate</span>
+            <input type="range" name="" id="rateSlider" min="0" max="1" value="0.5" step="0.1">
+        </label>
+        <label for="">
+            <span>Pitch</span>
+            <input type="range" name="" id="pitchSlider" min="0" max="2" value="0.5" step="0.1">
+        </label>
+        <div class="button" onclick="speak();">Speak</div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
