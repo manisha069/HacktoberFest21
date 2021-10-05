@@ -1,0 +1,12 @@
+img{
+    width:50px;
+    position: absolute;
+}
+
+#container{
+    width: 500px;
+    height: 500px;
+    background: #ccc;
+    border: 4px solid #333;
+    cursor: none;
+}
