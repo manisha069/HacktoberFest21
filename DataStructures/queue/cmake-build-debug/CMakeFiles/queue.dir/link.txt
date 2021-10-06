@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/queue.dir/queueByLinkedL.cpp.o -o queue 
