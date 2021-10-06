@@ -1,47 +1,30 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-
-/*Binary Search algorithm searches for an element in a sorted array
-by repeatedly dividing the array into two halves.*/
-
-
-int binarySearch(int arr[], int left, int right, int element)
+int binarySearch(int arr[], int l, int r, int x)
 {
-	if(right>=left)
-	{
-		int mid = left + (right-left)/2; 
+	if (r >= l) {
+		int mid = l + (r - l) / 2;
 
-		//If element is present at the middle return mid
-		if(arr[mid] == element) 						
+		if (arr[mid] == x)
 			return mid;
 
-		//If element is smaller than middle element then search for the element in left subarray
-		if(arr[mid] > element)                 				
-			return binarySearch(arr,left,mid-1,element);
+		if (arr[mid] > x)
+			return binarySearch(arr, l, mid - 1, x);
 
-		//Else search in right subarray
-		return binarySearch(arr,mid+1,right,element);
-
+		// Else the element can only be present
+		// in right subarray
+		return binarySearch(arr, mid + 1, r, x);
 	}
-	//If element is not found then return -1
 	return -1;
 }
 
-int main()
+int main(void)
 {
-	int size;
-	cin>>size;
-	int arr[size];
-	for(int i=0;i<size;i++){
-		cin>>a[i];
-	}
-	int element = 12;
-
-	int result = binarySearch(arr,0,size-1,element);
-	if(result==-1)
-		cout<<"Element is not present in array"<<endl;
-	else
-		cout<<"Element is present at index "<<result<<endl;
-
+	int arr[] = { 2, 3, 4, 10, 40 };
+	int x = 10;
+	int n = sizeof(arr) / sizeof(arr[0]);
+	int result = binarySearch(arr, 0, n - 1, x);
+	(result == -1) ? cout << "Element is not present in array"
+				: cout << "Element is present at index " << result;
 	return 0;
 }
