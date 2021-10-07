@@ -38,7 +38,7 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 | 01. | [Hacktoberfest21](https://github.com/manisha069/HacktoberFest21) | Algorithm | Excluded |
 | 02. | [Hacktoberfest-21-Open-First-PR](https://github.com/iamdevvalecha/Hacktoberfest-21-Open-First-PR) | HTML | Excluded |
 | 03. | [make-pull-request](https://github.com/twowaits/make-pull-request) | C++ / Java / Javascript / HTML / CSS / ML| Excluded |
-| 04. | [Hacktoberfest2k21](https://github.com/fineanmol/Hacktoberfest2k21) | HTML / CSS / Javascript | Active |
+| 04. | [Hacktoberfest2k21](https://github.com/fineanmol/Hacktoberfest2k21) | HTML / CSS / Javascript | Excluded |
 | 05. | [Hacktoberfest2020-Newbie](https://github.com/sahanihit/Hacktoberfest2020-Newbie) | HTML / Python / C / Java | Inactive |
 | 06. | [Hacktoberfest2021](https://github.com/vinitshahdeo/Hacktoberfest2021/blob/main/explore/PROJECTS.md) | List of open projects | Excluded |
 | 07. | [HacktoberFest-Python](https://github.com/hctnm1/HacktoberFest-Python) | Python | Excluded |
