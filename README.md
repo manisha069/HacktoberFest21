@@ -48,7 +48,7 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 | 11. | [hacktoberfest_2021](https://github.com/viralvaghela/hacktoberfest_2021) |DSA/Flutter| Active |
 | 12. | [Hacktoberfest2021](https://github.com/Sangwan5688/Hacktoberfest2021) |DSA / Computer Vision|Excluded|
 | 13. | [Hacktoberfest-Guide](https://github.com/avinash201199/Hacktoberfest-Guide) || Active |
-| 14. | [HactoberFest21](https://github.com/sudip-mondal-2002/HactoberFest21) | C++/CP/Web_Dev| Active |
+| 14. | [HactoberFest21](https://github.com/sudip-mondal-2002/HactoberFest21) | C++/CP/Web_Dev| Excluded|
 | 15. | [hacktoberfest2021](https://github.com/open-for-everyone/hacktoberfest2021) | Any tech | Excluded |
 
 ---
