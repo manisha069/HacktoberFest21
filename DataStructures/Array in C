@@ -1,0 +1,57 @@
+#include<stdio.h>
+void main()
+{
+	int i,j,n,a[10],ch,ele,pos;
+	printf("Enter no. of elements: ");
+	scanf("%d",&n);
+	printf("Enter elements: ");
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	
+	while(1)
+	{
+		printf("Choose one \n1.insert \n2.delete \n3.display\t ");
+		scanf("%d",&ch);
+		switch(ch)
+		{
+			case 1: printf("Enter elemenet to insert ");
+			scanf("%d",&ele);
+			printf("Enter post ");
+			scanf("%d",&pos);
+			if(pos-1>n || pos-1<0)
+			printf("INVALID");
+			else
+			{
+				for(i=n;i>=pos-1;i--)
+				{
+					a[i]=a[i-1];
+				}
+				a[pos-1]=ele;
+				n++;
+			}
+			break;
+			
+			case 2: printf("Enter position to delete: ");
+			scanf("%d",&pos);
+			if(pos>n || pos<0)
+			printf("INVALID");
+			else
+			{
+			
+			for(i=pos-1;i<n;i++)
+			a[i]=a[i+1];
+			n--;
+		    }
+			break;
+			
+			case 3: for(i=0;i<n;i++)
+			{
+				printf("%d ",a[i]);
+			}
+			break;
+			
+		}
+	}
+}
