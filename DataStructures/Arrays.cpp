@@ -1,22 +1,22 @@
-// Array implemented in C++
+## Implemention of Dynamic-array in C++ 
 
-#include <iostream>
+
+#include<iostream>
 using namespace std;
+
+int main(){
  
-int main()
-{
-    // Integer array of size 10.
-    int arr[10];
-    
-    // Taking input for array in a loop
-    for (int i=0; i<10; i++){
-      cin>>arr[i];
-    }
-    
-    //Printing array values
-    for (int i=0; i<10; i++){
-      cout<<arr[i]<<" ";
-    }
-  
-    return 0;
-}
+ int *p, n;
+ p=(int*)malloc(n*sizeof(int));
+ 
+ printf("Enter elements in array: ";
+ for(int i=0 ;i < n; i++){
+   cin("%d", (p+i));
+ }
+ 
+ printf("\n The elements are:" \n);
+  for(int i=0 ;i < n; i++){
+   cout("%d \n ", (p+i));
+ }
+ 
+  return 0;
