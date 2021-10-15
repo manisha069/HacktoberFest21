@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+void bubble_sort(int arry[],int n){
+    for (int i = 0; i < n-1; i++)
+    { 
+        for (int j = 0; j < n-i-1; j++)
+              {
+                if (arry[j] > arry[j+1]) 
+                {   int temp = arry[j];
+                    arry[j] = arry[j+1];
+                    arry[j+1] = temp;  }
+              }
+    }
+     cout<<"Bubble sorting done...\n";
+}
+
+void display(int arry[],int n){  for(int i=0;i<n;i++){ cout<<i+1<<". "<<arry[i]<<endl; } }
+
+int main()
+{
+    int n;
+    char choice='Y';
+    while(choice=='Y' || choice=='y')
+    {
+        cout<<"Enter the size of array --> "; cin>>n;
+        int arry[n];
+        cout<<"Enter the elments of array --> \n";
+        for(int i=0;i<n;i++){ cout<<i+1<<". "; cin>>arry[i]; }
+        bubble_sort(arry,n);
+        display(arry,n);
+        cout<<"\nDo you Want to continue (Y/N)-->"; cin>>choice; cout<<"\n";
+    }
+    if(choice!='n'||choice!='N'){ cout<<"\nInvalid choice entered ....";}
+    return 0;
+}
+
