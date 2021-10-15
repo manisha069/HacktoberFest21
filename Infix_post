@@ -1,0 +1,63 @@
+#include<iostream>
+#include<ctype.h>
+using namespace std;
+char stack_exp[20];
+int top = -1;
+
+class intopos{
+    public:
+    void push_val(char x)
+    {
+        stack_exp[++top] = x;
+    }
+    char pop_val()
+    {
+        if(top == -1)
+          return -1;
+        else
+         return stack_exp[top--];
+    }   
+    int pres(char x)
+    {
+        if(x == '(')
+         return 0;
+        if(x == '+' || x == '-')
+         return 1;
+        if(x == '*' || x == '/')
+         return 2;
+    }
+};
+
+int main()
+{
+    intopos obj;    
+    char expres[30];
+    char *e_Ref, x;
+    cout<<"Enter the expression --> ";cin>>expres;
+    e_Ref = expres;
+    cout<<"\nAfter converting INFIX to POSTFOX WE GET --> \n";
+    while(*e_Ref != '\0')
+     {
+         if(isalnum(*e_Ref))
+          cout<<*e_Ref;
+         else if(*e_Ref == '(')
+            obj.push_val(*e_Ref);
+         else if(*e_Ref == ')')
+        {
+          while((x = obj.pop_val()) != '(')
+           cout<< x;
+        }
+         else
+            {
+             while(obj.pres(stack_exp[top]) >= obj.pres(*e_Ref))
+                 cout<<obj.pop_val();
+                  obj.push_val(*e_Ref);
+            }
+            e_Ref++;
+    }
+    while(top != -1)
+    {
+     cout<<obj.pop_val();
+    }
+   return 0;
+}
