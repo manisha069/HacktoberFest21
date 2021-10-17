@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+    char color_1[20], color_2[20];
+    char r[20] = "red", b[20] = "blue", y[20] = "yellow";
+    printf("Enter first colours\n");
+    scanf("%s", color_1);
+    printf("Enter second colours\n");
+    scanf("%s", color_2);
+
+    if ((strcmp(color_1, r) == 0 && strcmp(color_2, b) == 0) || (strcmp(color_1, b) == 0 && strcmp(color_2, r) == 0))
+    {
+        printf("When you mix red and blue we get Purple");
+    }
+    else if ((strcmp(color_1, r) == 0 && strcmp(color_2, y) == 0) || (strcmp(color_1, y) == 0 && strcmp(color_2, r) == 0))
+    {
+        printf("When you mix red and yellow you get Orange");
+    }
+    else if ((strcmp(color_1, y) == 0 && strcmp(color_2, b) == 0) || (strcmp(color_1, b) == 0 && strcmp(color_2, y) == 0))
+    {
+        printf("when you mix blue and yellow we get Green");
+    }
+    else
+    {
+        printf("Error");
+    }
+    return 0;
+}
