@@ -4,7 +4,7 @@
 # HacktoberFest21
 
 Hello Hackers! 
-HacktoberFest has begun again for year 2021, and everyone's excited to get started!
+HacktoberFest has begun again for year 2021, and everyone's Excited to get started!
 
 
 ### What is Hacktoberfest?
