@@ -50,6 +50,9 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 | 13. | [Hacktoberfest-Guide](https://github.com/avinash201199/Hacktoberfest-Guide) || Active |
 | 14. | [HactoberFest21](https://github.com/sudip-mondal-2002/HactoberFest21) | C++/CP/Web_Dev| Excluded|
 | 15. | [hacktoberfest2021](https://github.com/open-for-everyone/hacktoberfest2021) | Any tech | Excluded |
+| 16. | [Hacktoberfest-2021](https://github.com/vijaygupta18/Hacktoberfest-2021) | Any tech | Excluded |
+| 17. | [HacktoberFest-2021](https://github.com/keshavsingh4522/HacktoberFest-2021) | JSON | Excluded |
+| 18. | [Hacktoberfest2021](https://github.com/Sangwan5688/Hacktoberfest2021) | Any tech | Excluded |
 
 ---
 ## Maintainer
