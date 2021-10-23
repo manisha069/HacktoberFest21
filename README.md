@@ -44,15 +44,14 @@ Do help the community by adding more **good quality, beginner-friendly** Hackotb
 | 07. | [HacktoberFest-Python](https://github.com/hctnm1/HacktoberFest-Python) | Python | Excluded |
 | 08. | [Patterns](https://github.com/hhhrrrttt222111/Patterns) | Pattern Printing | Active |
 | 09. | [open-source-contribution](https://github.com/Shubhamrawat5/open-source-contribution) | C / CPP / Java / JS / Dart | Active |
-| 10. | [Hacktoberfest-2021](https://github.com/vijaygupta18/Hacktoberfest-2021) |DSA+Projects| Active |
+| 10. | [Hacktoberfest-2021](https://github.com/vijaygupta18/Hacktoberfest-2021) |DSA+Projects| Excluded |
 | 11. | [hacktoberfest_2021](https://github.com/viralvaghela/hacktoberfest_2021) |DSA/Flutter| Excluded |
 | 12. | [Hacktoberfest2021](https://github.com/Sangwan5688/Hacktoberfest2021) |DSA / Computer Vision|Excluded|
 | 13. | [Hacktoberfest-Guide](https://github.com/avinash201199/Hacktoberfest-Guide) || Active |
 | 14. | [HactoberFest21](https://github.com/sudip-mondal-2002/HactoberFest21) | C++/CP/Web_Dev| Excluded|
 | 15. | [hacktoberfest2021](https://github.com/open-for-everyone/hacktoberfest2021) | Any tech | Excluded |
-| 16. | [Hacktoberfest-2021](https://github.com/vijaygupta18/Hacktoberfest-2021) | Any tech | Excluded |
-| 17. | [HacktoberFest-2021](https://github.com/keshavsingh4522/HacktoberFest-2021) | JSON | Excluded |
-| 18. | [Hacktoberfest2021](https://github.com/Sangwan5688/Hacktoberfest2021) | Any tech | Excluded |
+| 16. | [HacktoberFest-2021](https://github.com/keshavsingh4522/HacktoberFest-2021) | JSON | Excluded |
+| 17. | [Hacktoberfest2021](https://github.com/Sangwan5688/Hacktoberfest2021) | Any tech | Excluded |
 
 ---
 ## Maintainer
