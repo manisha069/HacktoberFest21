@@ -1,7 +1,10 @@
+//bubblesort_hue_hue
 #include<iostream>
 using namespace std;
   int n;
 void bubblesort(int arr[],int n);
+
+//driver code
 int main()
 {
 
