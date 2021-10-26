@@ -16,7 +16,8 @@ int grid[N][N] = {
 
 
 
-bool isPresentInCol(int col, int num) {    
+bool isPresentInCol(int col, int num)
+{    
    
    for (int row = 0; row < N; row++)
       if (grid[row][col] == num)
@@ -49,9 +50,11 @@ bool isPresentInBox(int boxStartRow, int boxStartCol, int num) {
 
 
 void sudokuGrid() {    
-   for (int row = 0; row < N; row++) {
+   for (int row = 0; row < N; row++)
+   {
       cout<<"[ ";
-      for (int col = 0; col < N; col++) {
+      for (int col = 0; col < N; col++)
+      {
         
          cout << grid[row][col] <<" ";
       }
@@ -64,7 +67,8 @@ void sudokuGrid() {
 
 
 
-bool findEmptyPlace(int &row, int &col) {    
+bool findEmptyPlace(int &row, int &col)
+{    
    for (row = 0; row < N; row++)
       for (col = 0; col < N; col++)
          if (grid[row][col] == 0) 
@@ -83,7 +87,8 @@ bool isValidPlace(int row, int col, int num) {
 
 
 
-bool solveSudoku() {
+bool solveSudoku() 
+{
    int row, col;
    if (!findEmptyPlace(row, col))
       return true;     
@@ -92,6 +97,7 @@ bool solveSudoku() {
          grid[row][col] = num;
          if (solveSudoku())     
             return true;
+          
          grid[row][col] = 0;    
       }
    }
