@@ -1,3 +1,4 @@
+#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -35,30 +36,4 @@ int countWaysToMakeChange(int denominations[], int numDenominations, int value){
 int output[numDenominations + 1][value + 1] = {-1};
     return help(denominations, numDenominations, value, output);*/
   
-}
-
-#include <iostream>
-using namespace std;
-
-#include "solution.h"
-
-int main()
-{
-
-	int numDenominations;
-	cin >> numDenominations;
-	
-	int *denominations = new int[numDenominations];
-
-	for (int i = 0; i < numDenominations; i++)
-	{
-		cin >> denominations[i];
-	}
-
-	int value;
-	cin >> value;
-
-	cout << countWaysToMakeChange(denominations, numDenominations, value);
-
-	delete[] denominations;
 }
