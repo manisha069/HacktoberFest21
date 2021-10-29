@@ -1,4 +1,4 @@
-//16bit binary adder with carry
+//16bit one's complement checksum calculator
 #include<iostream>
 using namespace std;
 
@@ -13,7 +13,7 @@ uint16_t b16_adder(uint16_t a,uint16_t b)
  return real_total;
 }
 
-//pointer to data array and array size
+//function expects pointer to data array and array size
 uint16_t checksum_ans16(uint16_t *arr,uint data_size)
 {
  uint sz=((data_size%2)>0?data_size+1:data_size);
