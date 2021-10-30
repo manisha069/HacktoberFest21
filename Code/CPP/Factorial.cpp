@@ -5,7 +5,7 @@ int main() {
     int x;
     long double factorial = 1.0;
 
-    cout << "Enter integer = ";
+    cout << "Enter integer = ";              // taking input
     cin >> x;
 
     if (x < 0)
