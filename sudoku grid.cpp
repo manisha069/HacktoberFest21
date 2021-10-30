@@ -103,7 +103,7 @@ bool solveSudoku() {
 
 
 int main() {
-   if (solveSudoku() == true)
+   if (solveSudoku() == true)              // checking if solution exists
       sudokuGrid();
    else
       cout << "No solution exists";
