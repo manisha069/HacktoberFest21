@@ -13,7 +13,7 @@ def download():
         root.update()
         YouTube(link.get()).streams.filter(progressive=True).order_by('resolution').desc().first().download()
         myVar.set("Enter Link Below")
-        link.set("Video Downloaded Successfully")
+        link.set("Video Downloaded Successfully!!!")
     except Exception as e:
         myVar.set("Mistake")
         root.update()
