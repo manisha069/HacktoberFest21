@@ -50,7 +50,7 @@ def recognizing():
         print(f"USER SAID : {doubt}\n")
         
     except Exception as e:
-        print("SAY THAT AGAIN PLASE..........")
+        print("SAY THAT AGAIN PLEASE..........")
         return "NONE"
     
     return doubt
