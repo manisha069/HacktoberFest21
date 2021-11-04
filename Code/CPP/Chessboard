@@ -1,0 +1,24 @@
+#include <cstdio>
+int main ()
+{
+		int row;
+		int column;
+	for (row = 0; row < 8; row++) {
+		for (column = 0; column < 8; column++) {
+			if (row % 2 == 0) {
+				if (column % 2 == 0) {
+					printf(" # ");
+				} else {
+					printf("  ");
+				 }
+			} else {
+				if (column % 2 == 0) {
+					printf("  ");
+				} else {
+         printf(" # ");
+				}
+        }
+    }
+    printf("\n");
+    }
+}
