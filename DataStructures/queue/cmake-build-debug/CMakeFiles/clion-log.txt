@@ -1,0 +1,4 @@
+/snap/clion/164/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/abhi/coding/queue
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/abhi/coding/queue/cmake-build-debug
