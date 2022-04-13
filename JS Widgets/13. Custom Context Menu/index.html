@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Context Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" oncontextmenu="return showContextMenu();">
+        <div id="contextMenu" class="context-menu">
+            <ul>
+                <li>Add an Event Listener</li>
+                <li>Disable Default Behavior</li>
+                <li>Design Context Menu</li>
+                <li>Show the Context Menu</li>
+                <li class="separator"></li>
+                <li>Hide on Mouse click</li>
+                <li>Hide on escape key</li>
+            </ul>
+        </div>
+    </div>  
+    <script src="index.js"></script>
+</body>
+</html>
